@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+    <test name="первый тест">
+        <classes>
+<class name="test"/>
+            <class name="test1"/>
+            <class name="test2"/>
+        </classes>
+    </test>
+    <test name="второй тест">
+        <classes>
+                <class name="test3"/>
+        </classes>
+    </test>
+</suite>
